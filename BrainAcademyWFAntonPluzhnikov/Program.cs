@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PresenterExample;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -15,7 +16,9 @@ namespace BrainAcademyWFAntonPluzhnikov
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            var view = new MainWindow();
+            var presenter = new Presenter(view);
+            Application.Run(view);
         }
     }
 }

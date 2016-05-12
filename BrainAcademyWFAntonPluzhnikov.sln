@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainAcademyWFAntonPluzhnikov", "BrainAcademyWFAntonPluzhnikov\BrainAcademyWFAntonPluzhnikov.csproj", "{6AB38777-D6C6-4A1B-ABCE-BCC56170984E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresenterExample", "PresenterExample\PresenterExample.csproj", "{BE656AEB-F0E9-42B7-9D73-777F0EEFEA5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelExample", "ModelExample\ModelExample.csproj", "{C0778102-D474-459B-84B1-A6E36A2EF3B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{6AB38777-D6C6-4A1B-ABCE-BCC56170984E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AB38777-D6C6-4A1B-ABCE-BCC56170984E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AB38777-D6C6-4A1B-ABCE-BCC56170984E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE656AEB-F0E9-42B7-9D73-777F0EEFEA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE656AEB-F0E9-42B7-9D73-777F0EEFEA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE656AEB-F0E9-42B7-9D73-777F0EEFEA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE656AEB-F0E9-42B7-9D73-777F0EEFEA5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0778102-D474-459B-84B1-A6E36A2EF3B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0778102-D474-459B-84B1-A6E36A2EF3B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0778102-D474-459B-84B1-A6E36A2EF3B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0778102-D474-459B-84B1-A6E36A2EF3B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
