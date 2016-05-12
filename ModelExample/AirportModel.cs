@@ -21,6 +21,14 @@ namespace ModelExample
                 new Flight {ID=4, City="New York", Number="4444", Type=false }
             };
         }
+
+        public void Remove(IEnumerable<Flight> flights) {
+            _flights = _flights.Where(arg => !flights.Contains(arg)).ToList();
+        }
+
+        public void Remove(Flight flight) {
+            _flights = _flights.Where(arg=>arg.ID != flight.ID).ToList();
+        }
     }
 
 }

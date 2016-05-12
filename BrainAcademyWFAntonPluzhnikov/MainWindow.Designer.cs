@@ -37,6 +37,7 @@
             this.flightsGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.flightsGridView.Location = new System.Drawing.Point(12, 12);
             this.flightsGridView.Name = "flightsGridView";
+            this.flightsGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.flightsGridView.Size = new System.Drawing.Size(836, 448);
             this.flightsGridView.TabIndex = 0;
             // 

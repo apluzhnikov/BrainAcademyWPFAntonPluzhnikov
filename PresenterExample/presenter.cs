@@ -9,7 +9,7 @@ namespace PresenterExample
 {
     public class FlightsEventArgs : EventArgs
     {
-        IEnumerable<Flight> flights;
+        public IEnumerable<Flight> flights;
     }
 
     public class Presenter
@@ -25,7 +25,8 @@ namespace PresenterExample
         }
 
         private void DeleteFlightsEventRaised(object sender, FlightsEventArgs e) {
-
+            _view.UpdateFlights(null);
+            _airportModel.Remove(e.flights);
             _view.UpdateFlights(_airportModel.flights);
         }
 
