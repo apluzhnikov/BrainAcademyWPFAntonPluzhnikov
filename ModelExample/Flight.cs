@@ -12,5 +12,7 @@ namespace ModelExample
         public string Number { get; set; }
         public bool Type { get; set; }
         public string City { get; set; }
+
+
     }
 }
